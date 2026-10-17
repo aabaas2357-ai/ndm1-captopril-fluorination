@@ -1,0 +1,17 @@
+id,name,tier,smiles,CIP(atom order),MW,cLogP
+ref_Dcap,D-captopril,ref,C[C@H](CS)C(=O)N1CCC[C@@H]1C(=O)O,"S,R",217.3,0.63
+ref_CF3chain,CF3-chain (5aC),ref,O=C(O)[C@H]1CCCN1C(=O)[C@@H](CS)C(F)(F)F,"R,R",271.3,1.17
+ref_Lcap,L-captopril,ref,C[C@H](CS)C(=O)N1CCC[C@H]1C(=O)O,"S,S",217.3,0.63
+ref_epiDcap,epi-D-captopril,ref,C[C@@H](CS)C(=O)N1CCC[C@@H]1C(=O)O,"R,R",217.3,0.63
+t1_44diF,"4,4-diF",1,C[C@H](CS)C(=O)N1CC(F)(F)C[C@@H]1C(=O)O,"S,R",253.3,0.87
+t1_CF3_44diF,"CF3-chain + 4,4-diF",1,O=C(O)[C@H]1CC(F)(F)CN1C(=O)[C@@H](CS)C(F)(F)F,"R,R",307.2,1.42
+t2_33diF,"3,3-diF",2,C[C@H](CS)C(=O)N1CCC(F)(F)[C@@H]1C(=O)O,"S,S",253.3,0.87
+t2_4F_iso1,4-F,2,C[C@H](CS)C(=O)N1C[C@H](F)C[C@@H]1C(=O)O,"S,R,R",235.3,0.58
+t2_4F_iso2,4-F,2,C[C@H](CS)C(=O)N1C[C@@H](F)C[C@@H]1C(=O)O,"S,S,R",235.3,0.58
+t2_3F_iso1,3-F,2,C[C@H](CS)C(=O)N1CC[C@H](F)[C@@H]1C(=O)O,"S,S,S",235.3,0.58
+t2_3F_iso2,3-F,2,C[C@H](CS)C(=O)N1CC[C@@H](F)[C@@H]1C(=O)O,"S,R,S",235.3,0.58
+t2_CHF2chain,CHF2-chain,2,O=C(O)[C@H]1CCCN1C(=O)[C@@H](CS)C(F)F,"R,R",253.3,0.87
+t3_pip,pipecolic D,3,C[C@H](CS)C(=O)N1CCCC[C@@H]1C(=O)O,"S,R",231.3,1.02
+t3_isonip,isonipecotic,3,C[C@H](CS)C(=O)N1CCC(C(=O)O)CC1,S,231.3,0.88
+t3_CF3_isonip,CF3 + isonipecotic,3,O=C(O)C1CCN(C(=O)[C@@H](CS)C(F)(F)F)CC1,R,285.3,1.42
+t3_azet,azetidine D,3,C[C@H](CS)C(=O)N1CC[C@@H]1C(=O)O,"S,R",203.3,0.24

@@ -1,0 +1,14 @@
+name: ndm1-docking
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - vina
+  - meeko
+  - rdkit
+  - numpy
+  - pandas
+  - matplotlib
+  - openpyxl
+  - autogrid   # only needed for AD4Zn maps
+  - scipy

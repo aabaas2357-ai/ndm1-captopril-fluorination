@@ -1,0 +1,5 @@
+set,strain_kcal,E_bound,E_free_min,best_trans_rel,best_cis_rel
+captopril_SH,64.79,-28296.94,-28361.73,11.93,0.0
+captopril_Sm,50.67,-28164.58,-28215.25,0.92,0.0
+F2captopril_SH,66.22,-33603.42,-33669.64,12.62,0.0
+F2captopril_Sm,51.97,-33471.79,-33523.76,0.93,0.0

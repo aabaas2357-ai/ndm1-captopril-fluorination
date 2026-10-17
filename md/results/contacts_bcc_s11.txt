@@ -1,0 +1,47 @@
+frames read: 200   atoms: 27156   periodic box used: yes
+box lengths (A, frame 0): 64.7 64.7 64.7
+ligand heavy atoms: O1(O), C1(C), O2(O), C2(C), C3(C), C4(C), C5(C), N1(N), C6(C), O3(O), C7(C), C8(C), C9(C), S1(S)
+
+Residues within 4.0 A of the ligand (heavy atoms), top 20:
+  residue            occ %   mean min (A)
+  HIS 81             100.0           3.44
+  ASP 83             100.0           2.84
+  HIS 79             100.0           3.11
+  HIS 148            100.0           3.20
+  HIS 209            100.0           2.66
+  ASN 179            100.0           2.95
+  CYS 167            100.0           3.15
+  LYS 170             99.0           2.79
+  GLY 178             56.5           4.03
+  PHE 29              54.5           4.78
+  MET 26              43.5           4.27
+  LEU 177             33.0           4.15
+  VAL 32              26.5           4.34
+  TRP 52              25.0           4.27
+
+Polar contacts (N/O ... N/O <= 3.5 A, distance only), occupancy >= 10%:
+  lig      protein atom         occ %   mean d (A)
+  O2       HIS 209:NE2          100.0         2.66
+  O1       LYS 170:NZ            98.0         2.79
+  O3       ASN 179:ND2           86.0         3.13
+  O2       ASP 83:OD2            82.5         3.42
+  O1       ASN 179:N             40.0         3.76
+  O1       HIS 148:ND1           10.0         3.86
+
+Waters within 3.5 A of each ligand polar atom (mean count per frame):
+  O1       0.04
+  O2       0.00
+  N1       0.06
+  O3       1.15
+
+Ligand O/S to Zn: mean distance (A) and % of frames <= 3.0 A:
+  Zn3355  O1       3.91     0.0 %
+  Zn3355  O2       1.77   100.0 %
+  Zn3355  O3       4.28     0.0 %
+  Zn3355  S1       2.23   100.0 %
+  Zn3356  O1       5.30     0.0 %
+  Zn3356  O2       4.26     0.0 %
+  Zn3356  O3       3.89     0.0 %
+  Zn3356  S1       2.03   100.0 %
+
+saved: contacts_prod_K40000.csv

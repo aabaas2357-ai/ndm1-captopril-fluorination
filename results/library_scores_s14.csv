@@ -1,0 +1,15 @@
+id,tier,core_atoms,core_rmsd,score_only,local_only,d_score_only,d_local_only,S_Zn_min,min_contact,MW,cLogP,TPSA,note,smiles
+h1_tetrazole,hetero,11,0.55,13.53,-3.82,13.88,0.08,4.14,3.0,241.3,0.43,74.8,,C[C@H](CS)C(=O)N1CCC[C@@H]1c1nnn[nH]1
+h2_isonip_tz,hetero,11,0.58,2.79,-2.673,3.13,1.22,2.28,2.88,255.3,0.47,74.8,,C[C@H](CS)C(=O)N1CCC(CC1)c1nnn[nH]1
+h3_thioPro,hetero,13,0.49,-0.606,-3.361,-0.26,0.53,2.43,2.72,235.3,0.54,57.6,,C[C@H](CS)C(=O)N1CSC[C@@H]1C(=O)O
+h4_indoline,hetero,14,0.6,7.84,-2.127,8.19,1.77,14.19,3.05,265.3,1.59,57.6,,C[C@H](CS)C(=O)N1c2ccccc2C[C@@H]1C(=O)O
+h5_thiazole,hetero,6,0.29,34.463,-2.319,34.81,1.58,5.32,2.9,246.3,1.35,79.3,,C[C@H](CS)C(=O)Nc1ncc(s1)C(=O)O
+ref_CF2_44diF,ref,14,0.52,-0.329,-3.268,0.02,0.63,2.25,2.97,253.3,0.87,57.6,,C[C@H](CS)C(=O)N1CC(F)(F)C[C@@H]1C(=O)O
+ref_CF3_44diF,ref,14,0.48,-0.512,-4.66,-0.17,-0.77,2.81,2.93,307.2,1.42,57.6,,FC(F)(F)[C@H](CS)C(=O)N1CC(F)(F)C[C@@H]1C(=O)O
+ref_CF3chain,ref,14,0.4,-0.855,-4.296,-0.51,-0.4,2.83,3.06,271.3,1.17,57.6,,FC(F)(F)[C@H](CS)C(=O)N1CCC[C@@H]1C(=O)O
+ref_Dcap,ref,14,0.51,-0.345,-3.895,0.0,0.0,2.64,2.99,217.3,0.63,57.6,,C[C@H](CS)C(=O)N1CCC[C@@H]1C(=O)O
+val_Lcap,val,14,0.89,0.287,-3.664,0.63,0.23,2.85,3.25,217.3,0.63,57.6,,C[C@H](CS)C(=O)N1CCC[C@H]1C(=O)O
+val_RR,val,14,0.44,-0.573,-4.278,-0.23,-0.38,2.94,3.08,271.3,1.17,57.6,,O=C(O)[C@H]1CCCN1C(=O)[C@@H](CS)C(F)(F)F
+val_RS,val,14,0.37,-0.515,-4.322,-0.17,-0.43,3.38,2.98,271.3,1.17,57.6,,O=C(O)[C@H]1CCCN1C(=O)[C@H](CS)C(F)(F)F
+val_SR,val,14,0.82,0.478,-2.975,0.82,0.92,2.8,2.94,271.3,1.17,57.6,,O=C(O)[C@@H]1CCCN1C(=O)[C@@H](CS)C(F)(F)F
+val_SS,val,14,0.98,3.44,-4.232,3.79,-0.34,5.32,3.19,271.3,1.17,57.6,,O=C(O)[C@@H]1CCCN1C(=O)[C@H](CS)C(F)(F)F
