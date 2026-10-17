@@ -1,0 +1,22 @@
+# bulky or regenerable
+*.pdbqt
+*.map
+*.glg
+*.fld
+*.xyz
+xtbopt*
+xtbrestart
+charges
+wbo
+lib*/
+cluster/
+strain/
+xtb_env/
+*.tar.gz
+*.sh
+__pycache__/
+.conda/
+*.log
+# keep small inputs and results
+!data/inputs/*.sdf
+!results/*.csv
