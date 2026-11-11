@@ -60,13 +60,8 @@ better than D-captopril. A validation set of five CF3/L-captopril stereoisomers 
 **Take-home:** no evidence that 4,4-difluorination changes conformation or binding; the only trend that
 survives repetition is a small advantage of a chain CF3 group, consistent with the cited paper.
 
-## 4. Results (A): FDA-drug screening
 
-`TODO`: final number of docked ligands, filter criteria, shortlist and the nitroxoline reference result
-(plain Vina placed the known inhibitor ~10 Å from Zn, i.e. Vina alone misses zinc chelation).
-Do not present Vina scores of the shortlist as evidence of inhibition.
-
-## 5. Limitations
+## 4. Limitations
 
 * Fluorine and hydrogen positions are built, not measured; the pocket is rigid and waters are removed.
 * AD4Zn is parametrised for tetrahedral Zn and did not reproduce a thiolate bridging two zinc ions.
@@ -74,7 +69,7 @@ Do not present Vina scores of the shortlist as evidence of inhibition.
 * `$fix` behaviour in the xTB runs (that frozen atoms stayed frozen) was not independently verified.
 * No molecular dynamics, no DFT thiol pKa, no experimental data.
 
-## 6. Reproduce
+## 5. Reproduce
 
 ```bash
 conda env create -f environment.yml        # docking / RDKit environment
@@ -86,7 +81,7 @@ conda activate ndm1-docking
 2. `scripts/captopril_docking/build_library.py` → `score_library2.py` / `hetero_run.py` → `agg.py`.
 3. `scripts/captopril_xtb/` for strain and cluster calculations (paths at the top of each script must be edited).
 
-## 7. Layout
+## 6. Layout
 
 ```
 scripts/screening/          FDA-library docking and Zn-distance filtering
@@ -101,7 +96,7 @@ figures/                    PyMOL session script and images
 
 A separate OpenMM molecular-dynamics baseline of NDM-1 with D-captopril (PDB 5ZJ2) lives in [md/](md/README.md): set-up, restrained equilibration, 2 ns production runs with checkpoint/resume, and analysis scripts. Main finding: with a non-bonded Zn(2+) model the ligand carboxylate moves from 5.1 A to about 1.8 A from Zn in every run, so these simulations are a documented baseline, not evidence for the binding mode.
 
-## 8. References
+## 7. References
 
 * Kondratieva A. et al. *Eur J Med Chem* 2024, 266, 116140.
 * Brem J. et al. *Antimicrob Agents Chemother* 2016, 60, 142–150.
@@ -109,6 +104,6 @@ A separate OpenMM molecular-dynamics baseline of NDM-1 with D-captopril (PDB 5ZJ
 * Santos-Martins D. et al. *J Chem Theory Comput* 2014, 10, 1255 (AutoDock4Zn).
 * Bannwarth C. et al. *J Chem Theory Comput* 2019, 15, 1652 (GFN2-xTB).
 
-## 9. License and acknowledgements
+## 8. License and acknowledgements
 
 Code: MIT (see `LICENSE`). `TODO`: supervisor and institution, contact.
